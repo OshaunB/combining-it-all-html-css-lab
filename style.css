@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+h2{
+    display:flex;
+    flex-direction:row;
+}
+header{
+    background-color: #efc9cd;
+    display: flex;
+    justify-content:space-between;
+    width:100%;
+}
+.about{
+    padding-left:50%;
+    padding-right: 50%
+}
+nav{
+  justify-content: end;
+  display: flex;
+  flex-direction: row;
+}
+main{
+    display:grid;
+    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+    background-color: #ffb9df;
+    
+}
