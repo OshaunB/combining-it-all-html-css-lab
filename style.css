@@ -1,4 +1,52 @@
 *{
+    margin:0;
+    
+}
+main{
+    height:100%;
+}
+.full-size{
+    height:100vh;
+}
+
+header{
+    position:sticky;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: orange;
+    width:100%;
+}
+
+h2{
+    width:75%;
+}
+
+nav{
+    width:25%;
+    display:flex;
+}
+
+a{
+    justify-content:space-evenly;
+}
+
+.about{
+    padding-left: 50%;
+}
+.middle{
+    height:100%;
+    background-color: yellow;
+}
+h1{
+    display:flex;
+    justify-content:center;
+}
+
+figure{
+    display:flex;
+    justify-content:center;
+}
     margin: 0;
 }
 h2{
